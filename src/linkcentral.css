@@ -1,20 +1,20 @@
-linkcentral {
+.linkcentral{
     margin-top: 40px;
 }
 
-.linkcentral {
-    margin-top: 50px;
+.linkcentral a {
+    text-decoration: none;
+}
+
+.link {
+    margin-top: 20px;
     padding: 15px 0px;
-    background-color: black;
+    background-color: #222425;
     border-radius: 20px;
     text-align: center;
 }
 
-.linkcentral + .linkcentral {
-    margin-top: 10px;
-}
-
-.linkcentral h3 {
+ .link h3 {
     font-size: 14px;
-    color: white;
+    color:white;
 }

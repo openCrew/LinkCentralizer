@@ -5,3 +5,7 @@ description #description {
 description {
     text-align: center;
 }
+
+description h3 {
+    color: white;
+}

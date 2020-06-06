@@ -1,7 +1,18 @@
 profile #profile {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-profile #profile h3 {
-    text-align: center;
+profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+profile h3 {
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
 }
