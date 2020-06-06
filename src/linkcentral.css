@@ -1,21 +1,20 @@
 linkcentral {
     margin-top: 40px;
-    max-width: 500px;
 }
 
 .linkcentral {
-    margin-top: 40px;
-    padding: 10px;
+    margin-top: 50px;
+    padding: 15px 0px;
     background-color: black;
-    border: 2px solid white;
     border-radius: 20px;
     text-align: center;
 }
 
 .linkcentral + .linkcentral {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .linkcentral h3 {
+    font-size: 14px;
     color: white;
 }

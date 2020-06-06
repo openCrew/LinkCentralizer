@@ -19,19 +19,16 @@ function App() {
       <lincentral>
         <div>
           <div className="linkcentral">
-            <h3>Link 1</h3>
+            <h3>SITE</h3>
           </div>
           <div className="linkcentral">
-            <h3>Link 2</h3>
+            <h3>PROJETOS</h3>
           </div>
           <div className="linkcentral">
-            <h3>Link 3</h3>
+            <h3>BLOG</h3>
           </div>
           <div className="linkcentral">
-            <h3>Link 4</h3>
-          </div>
-          <div className="linkcentral">
-            <h3>Link 5</h3>
+            <h3>CONTATO</h3>
           </div>
         </div>
       </lincentral>
