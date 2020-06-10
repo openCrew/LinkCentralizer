@@ -1,0 +1,20 @@
+.linkcentral{
+    margin-top: 40px;
+}
+
+.linkcentral a {
+    text-decoration: none;
+}
+
+.link {
+    margin-top: 20px;
+    padding: 15px 0px;
+    background-color: #222425;
+    border-radius: 20px;
+    text-align: center;
+}
+
+ .link h3 {
+    font-size: 14px;
+    color:white;
+}
