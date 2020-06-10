@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 //Styles imported
 import '../css/global.css';
-import '../css/App.css';
+import '../css/linker.css';
 import '../css/profile.css';
 import '../css/linkcentral.css';
 import '../css/description.css';
