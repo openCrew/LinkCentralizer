@@ -10,9 +10,9 @@ function LoginAdmin() {
     return(
         <div id="conteiner-login">
             <logo>
-                    <h1>MyLinker.me</h1>
-                    <h3>Log in to access MyLinker admin</h3>
-                </logo>
+                <h1>MyLinker.me</h1>
+                <h3>Log in to access MyLinker admin</h3>
+            </logo>
             <div id="login-admin">
                 <form>
                     <div className="input-block">
@@ -23,8 +23,16 @@ function LoginAdmin() {
                         <label htmlFor="">Password</label>
                         <input type="password" name="Password" id="password" required />
                     </div>
-                    <button type="submit">Enviar</button>
+                    <div id="remember">
+                        <input type="checkbox" />
+                        <h4>Remember me</h4>
+                    </div>
+                    <button type="submit">Login</button>
+                    <h5>Forgot your password? <a href ="">Click here</a></h5>
                 </form>
+            </div>
+            <div id="create">
+                <a href="">Create an Account</a>
             </div>
         </div>    
     );
