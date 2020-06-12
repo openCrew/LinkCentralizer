@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { SketchPicker } from 'react-color';
+import { FiMenu } from 'react-icons/fi';
 
 //Styles imports
 import '../css/global.css';
@@ -11,17 +13,20 @@ function LinkerAdmin() {
   const [title, setTitle] = useState('OPA');
   const [link, setLink] = useState('BEZPIX');
 
+  const [color, setColor] = useState('#fff');
+  const [showColorPicker, setColorPicker] = useState(false);
+
   return (
     <div id="conteiner-linker">
       <div id="menu">
         <input type="checkbox" id="check" />
-        <label id="icone" for="check"><img src="icone.png" /></label>
+        <label id="icone" for="check"><FiMenu size="2em" /></label>
         <div id="barra">
           <nav>
             <div id="background">
               <h3>Background</h3>
               <div className="conteiner-info">
-
+                <SketchPicker color={ color } onChange={updatedColor => setColor(updatedColor.hex)}/>
               </div>
             </div>
             <div id="logo">

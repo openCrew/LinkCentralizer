@@ -1,12 +1,15 @@
 #menu nav {
     width: 100%;
     position: absolute;
-    top: 60px;
-    padding: 0px 20px;
+    padding: 60px 20px 20px 20px;
 }
 
 .conteiner-info {
     margin-top: 20px;
+}
+
+#color-picker {
+    height: 100px !important;
 }
 
 .input-menu {
@@ -44,7 +47,7 @@
 }
 
 #check:checked ~ #barra {
-    transform: translateX(300px);
+    transform: translateX(340px); 
 }
 
 #icone {
@@ -57,8 +60,9 @@
 #barra {
     background: #222425;
     height: 100%;
-    width: 300px;
+    width: 340px;
     position: absolute;
     transition: all .1s linear;
-    left: -300px;
+    left: -340px;
+    overflow-y: scroll;
 }
