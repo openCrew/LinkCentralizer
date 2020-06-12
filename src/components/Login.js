@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 //Styles
+import '../css/global.css';
 import '../css/login.css';
 
 function LoginAdmin() {

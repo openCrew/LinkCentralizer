@@ -5,8 +5,23 @@
     padding: 0px 20px;
 }
 
+.conteiner-info {
+    margin-top: 20px;
+}
+
+.input-menu {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-menu + .input-menu {
+    margin-top: 10px;
+}
+
 #menu nav div + div {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 #menu nav h3 {

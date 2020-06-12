@@ -33,20 +33,20 @@ function LinkerAdmin() {
             <div id="title">
               <h3>Title</h3>
               <div className="conteiner-info">
-                <input type="text" placeholder="Write here your title"/>
+                <input className="input-menu" type="text" placeholder="Write here your title"/>
               </div>
             </div>
             <div id="links">
               <h3>Links</h3>
               <div id="link" className="conteiner-info">
-                <input type="text" placeholder="Link name"/>
-                <input type="text" placeholder="Address"/>
+                <input className="input-menu" type="text" placeholder="Link name"/>
+                <input className="input-menu" type="text" placeholder="Address"/>
               </div>
             </div>
             <div id="description">
               <h3>Description</h3>
               <div className="conteiner-info">
-                <input type="text" placeholder="Write here your title"/>
+                <input className="input-menu" type="text" placeholder="Write here your description"/>
               </div>
             </div>
           </nav>
