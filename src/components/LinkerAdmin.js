@@ -4,8 +4,6 @@ import React, { useState, useEffect } from 'react';
 import '../css/global.css';
 import '../css/linker.css';
 import '../css/adminmenu.css';
-import '../css/profile.css';
-import '../css/description.css';
 
 function LinkerAdmin() {
 

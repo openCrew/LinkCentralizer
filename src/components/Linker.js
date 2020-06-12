@@ -3,8 +3,6 @@ import React, { useState, useEffect } from 'react';
 //Styles imported
 import '../css/global.css';
 import '../css/linker.css';
-import '../css/profile.css';
-import '../css/description.css';
 
 function Linker() {
 
