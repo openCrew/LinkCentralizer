@@ -1,3 +1,67 @@
+#conteiner-login {
+    background-color: #f5f6f8;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+logo {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+logo h1 {
+    color: #36454f;
+}
+
+logo h3 {
+    margin-top: 50px;
+    font-size: 20px;
+    color: #36454f;
+    text-align: center;
+}
+
+form .input-block + .input-block {
+    margin-top: 20px;
+}
+
+form .input-block label {
+    color: #acacac;
+    font-size: 16px;
+    display: block;
+}
+
+form .input-block input {
+    width: 100%;
+    height: 32px;
+    font-size: 16px;
+    color: #666;
+    border: 0;
+    border-bottom: 1px solid #eee;
+}
+
 #login-admin {
+    width: 400px;
+    margin-top: 50px;
     background: white;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+form button[type=submit] {
+    width: 100%;
+    border: 0;
+    margin-top: 30px;
+    background: #36454f;
+    border-radius: 2px;
+    padding: 15px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
 }

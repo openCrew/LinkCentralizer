@@ -4,7 +4,6 @@ import React, { useState, useEffect } from 'react';
 import '../css/global.css';
 import '../css/linker.css';
 import '../css/profile.css';
-import '../css/linkcentral.css';
 import '../css/description.css';
 
 function LinkerAdmin() {
@@ -14,42 +13,44 @@ function LinkerAdmin() {
   const [link, setLink] = useState('BEZPIX');
 
   return (
-    <div id="linker">
-      <profile>
-        <div id="profile">
-          <img src={image} alt="Logo"/>
-          <h3>{name}</h3>
-        </div>
-      </profile>
-      <linkcentral>
-        <div className="linkcentral">
-          <a href="https://google.com">
-            <div className="link">
-              <h3>SITE</h3>
-            </div>
-          </a>
-          <a href="https://google.com">
-            <div className="link">
-              <h3>PROJETOS</h3>
-            </div>
-          </a>
-          <a href="https://google.com">
-            <div className="link">
-              <h3>BLOG</h3>
-            </div>
-          </a>
-          <a href="https://google.com">
-            <div className="link">
-              <h3>CONTATO</h3>
-            </div>
-          </a>
-        </div>
-      </linkcentral>
-      <description>
-        <div id="description">
-          <h3>@bezpix_</h3>
-        </div>
-      </description>
+    <div id="conteiner-linker">
+      <div id="linker">
+        <profile>
+          <div id="profile">
+            <img src={image} alt="Logo"/>
+            <h3>{name}</h3>
+          </div>
+        </profile>
+        <linkcentral>
+          <div className="linkcentral">
+            <a href="https://google.com">
+              <div className="link">
+                <h3>SITE</h3>
+              </div>
+            </a>
+            <a href="https://google.com">
+              <div className="link">
+                <h3>PROJETOS</h3>
+              </div>
+            </a>
+            <a href="https://google.com">
+              <div className="link">
+                <h3>BLOG</h3>
+              </div>
+            </a>
+            <a href="https://google.com">
+              <div className="link">
+                <h3>CONTATO</h3>
+              </div>
+            </a>
+          </div>
+        </linkcentral>
+        <description>
+          <div id="description">
+            <h3>@bezpix_</h3>
+          </div>
+        </description>
+      </div>
     </div>
   );
 

@@ -12,7 +12,6 @@ html, body, #root {
 }
 
 body {
-    background: #7d40e7;
     background-position: center;
     background-size: cover;
     -webkit-font-smoothing: antialiased;
