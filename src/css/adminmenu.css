@@ -1,0 +1,68 @@
+#menu nav {
+    width: 100%;
+    position: absolute;
+    padding: 60px 20px 20px 20px;
+}
+
+.conteiner-info {
+    margin-top: 20px;
+}
+
+#color-picker {
+    height: 100px !important;
+}
+
+.input-menu {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-menu + .input-menu {
+    margin-top: 10px;
+}
+
+#menu nav div + div {
+    margin-top: 40px;
+}
+
+#menu nav h3 {
+    font-size: 20px;
+    color: white;
+}
+
+#menu nav input {
+    width: 100%;
+}
+
+#link {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px !important;
+}
+
+#check {
+    display: none;
+}
+
+#check:checked ~ #barra {
+    transform: translateX(340px); 
+}
+
+#icone {
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+#barra {
+    background: #222425;
+    height: 100%;
+    width: 340px;
+    position: absolute;
+    transition: all .1s linear;
+    left: -340px;
+    overflow-y: scroll;
+}

@@ -1,5 +1,66 @@
+#conteiner-linker {
+    background: #7d40e7;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
 #linker {
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
     max-width: 500px;
     padding: 60px;
+}
+
+.linkcentral{
+    margin-top: 40px;
+}
+
+.linkcentral a {
+    text-decoration: none;
+}
+
+profile #profile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+profile h3 {
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+.link {
+    margin-top: 20px;
+    padding: 15px 0px;
+    background-color: #222425;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.link h3 {
+    font-size: 14px;
+    color:white;
+}
+
+description #description {
+    margin-top: 20px;
+}
+
+description {
+    text-align: center;
+}
+
+description h3 {
+    color: white;
 }

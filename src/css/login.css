@@ -1,3 +1,114 @@
-#login-admin {
-    background: white;
+#conteiner-login {
+    background-color: #f5f6f8;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+#create {
+    margin: 30px 0px;
+}
+
+#create a {
+    text-decoration: none;
+    color: #36454f;
+    cursor: pointer;
+}
+
+#create a:hover {
+    text-decoration: underline;
+}
+
+#login-admin {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 50px;
+    background: white;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+logo h1 {
+    color: #36454f;
+}
+
+logo h3 {
+    margin-top: 50px;
+    font-size: 20px;
+    color: #36454f;
+    text-align: center;
+}
+
+form .input-block + .input-block {
+    margin-top: 20px;
+}
+
+form .input-block label {
+    color: #acacac;
+    font-size: 16px;
+    display: block;
+}
+
+form .input-block input {
+    width: 100%;
+    height: 32px;
+    font-size: 16px;
+    color: #666;
+    border: 0;
+    border-bottom: 1px solid #eee;
+}
+
+form button[type=submit] {
+    width: 100%;
+    border: 0;
+    margin-top: 30px;
+    background: #36454f;
+    border-radius: 2px;
+    padding: 15px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+form h5 {
+    font-weight: lighter;
+    color: #36454f;
+    text-align: center;
+    margin-top: 20px;
+}
+
+form h5 a {
+    text-decoration: none;
+    color: #36454f;
+    cursor: pointer;
+}
+
+form h5 a:hover {
+    text-decoration: underline;
+}
+
+#remember {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#remember h4 {
+    margin-left: 5px;
+    font-weight: lighter;
+    color: #acacac;
+}
+
